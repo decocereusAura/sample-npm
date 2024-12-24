@@ -1,11 +1,10 @@
 "use client";
 import { DynamicContextProvider } from "@dynamic-labs/sdk-react-core";
 import { createStorage, cookieToInitialState } from "@wagmi/core";
-import { cookieStorage } from "@wagmi/core/dist/types/utils/cookie";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import React from "react";
 import { EIP1193RequestFn, http, Transport } from "viem";
-import { createConfig, WagmiProvider } from "wagmi";
+import { cookieStorage, createConfig, WagmiProvider } from "wagmi";
 import { mainnet, sophon, sophonTestnet } from "viem/chains";
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
 import { DynamicWagmiConnector } from "@dynamic-labs/wagmi-connector";
