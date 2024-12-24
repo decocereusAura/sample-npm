@@ -1,6 +1,6 @@
 {
   "name": "headless-web-wallet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a headless web3 wallet",
   "repository": "https://github.com/decocereusAura/sample-npm.git",
   "main": "dist/index.js",
@@ -10,8 +10,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "lint": "eslint src/**",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build"

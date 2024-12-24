@@ -32,7 +32,7 @@ export interface CustomWeb3ProviderProps {
   dynamicSettings: WalletProviderSettings;
 }
 
-export default function Web3Provider({
+export default function Web3WalletProvider({
   children,
   chains = [mainnet, sophon, sophonTestnet],
   cookie,
