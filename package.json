@@ -1,7 +1,8 @@
 {
   "name": "@decocereusaura/headless-web-wallet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a headless web3 wallet",
+  "repository": "https://github.com/decocereusAura/sample-npm.git",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -39,10 +40,6 @@
     "eslint-config-next": "15.1.2",
     "tsup": "^8.0.0",
     "typescript": "^5"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "web3",
