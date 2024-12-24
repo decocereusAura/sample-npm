@@ -10,11 +10,11 @@
     "dist"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "lint": "eslint src/**",
     "clean": "rm -rf dist",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@dynamic-labs/ethereum": "^3.9.5",
