@@ -1,5 +1,5 @@
 {
-  "name": "headless-web-wallet",
+  "name": "@decocereusaura/headless-web-wallet",
   "version": "1.0.0",
   "description": "This is a headless web3 wallet",
   "private": false,
