@@ -27,9 +27,9 @@
     "wagmi": "^2.14.6"
   },
   "peerDependencies": {
-    "next": ">=13",
-    "react": ">=18",
-    "react-dom": ">=18"
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
