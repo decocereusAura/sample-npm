@@ -1,6 +1,6 @@
 {
   "name": "headless-web-wallet",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is a headless web3 wallet",
   "repository": "https://github.com/decocereusAura/sample-npm.git",
   "main": "dist/index.js",
