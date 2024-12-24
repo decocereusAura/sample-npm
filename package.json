@@ -3,7 +3,6 @@
   "version": "1.0.3",
   "description": "This is a headless web3 wallet",
   "repository": "https://github.com/decocereusAura/sample-npm.git",
-  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
