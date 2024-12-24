@@ -1,2 +1,1 @@
-# sample-npm
-Publishing a sample NPM package
+This is a sample headless web3 wallet integration
